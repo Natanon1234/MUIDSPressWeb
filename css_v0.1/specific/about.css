@@ -1,0 +1,44 @@
+/* Main */
+#disclaimer, #description, #regulations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 1600px;
+    width: 90%;
+}
+
+#disclaimer h1, #description h1, #regulations h1 {
+    width: 90%;
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+} 
+
+#disclaimer hr, #description hr, #regulations hr {
+    margin-bottom: 20px;
+}
+
+#disclaimer br, #description br, #regulations br {
+    margin-bottom: 20px;
+}
+
+#disclaimer p, #description p, #regulations p {
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* iframe */
+#regulations iframe {
+    margin: auto;
+    width: 100%;
+    max-width: 750px;
+    height: 1000px;
+}
+
+#regulations a {
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(29, 79, 145);
+}

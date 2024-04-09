@@ -1,0 +1,227 @@
+#initDate {
+    min-width: 95%;
+    width: 95%;
+}
+
+#endDate {
+    min-width: 95%;
+    width: 95%;
+}
+
+#search {
+    margin: auto;
+    margin-top: 20px;
+    width: 95%;
+    max-width: 1500px;
+}
+
+#search h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+}
+
+#searchForm {
+    padding: 10px 0px 10px 0px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchForm input {
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: whitesmoke;
+    width: 98%;
+}
+
+#searchForm label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: auto;
+}
+
+#searchForm button {
+    position: relative;
+    margin-top: 10px;
+    padding: 10px;
+    max-width: 500px;
+    width: 90%;
+    border-radius: 20px;
+    background-color: rgb(255, 200, 69);
+    border: none;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.075);
+    transition: all ease 250ms;
+}
+
+#searchForm button:hover {
+    background-color: rgb(195, 150, 37);
+    cursor: pointer;
+}
+
+#searchForm button img {
+    object-fit: contain;
+    width: 10%;
+    height: 10%;
+    min-width: 30px;
+    min-height: 50px;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#result h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    margin-right: auto;
+}
+
+#result hr {
+    border: solid 1.5px grey;
+    width: 100%;
+}
+
+#result a {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#result a:hover {
+    color: rgb(195, 150, 37);
+    transition: color ease 250ms;
+}
+
+#resultBox {
+    width: 95%;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#resultTemplate {
+    font-family: 'Open Sans', sans-serif;
+    width: 95%;
+    padding: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.108);
+    border-radius: 5px;
+}
+
+#tagHolder {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#tag {
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(255, 200, 69);
+    border-radius: 5px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+}
+
+#wait {
+    font-family: 'Source Code Pro', monospace;
+    background-color: none;
+    color: grey;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    font-size: 20px
+}
+
+#slider {
+    margin-top: 20px;
+    color: rgb(29, 79, 145);
+    width: 95%;
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+}
+
+#slider a:hover {
+    transition: color ease 250ms;
+    cursor: pointer;
+    color: rgb(195, 150, 37);
+}
+
+#m {
+    font-size: 22px;
+    color: rgb(195, 150, 37);
+}
+
+#m:hover {
+    cursor: default;
+    transition: none;
+}
+
+/* Broadcast */
+#broadcasting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 1600px;
+    width: 95%;
+    max-width: 1500px;
+}
+
+#broadcasting h1 {
+    width: 90%;
+    font-size: 45px;
+    font-family: 'Merriweather', serif;
+} 
+
+#broadcasting hr {
+    margin-bottom: 20px;
+}
+
+/* Broadcasting */
+#broadcasting iframe {
+    margin: auto;
+    width: 90%;
+    height: 300px;
+}
+
+/* Media Query */
+@media screen and (min-width: 1000px) {
+    #searchForm {
+        flex-direction: row;
+        flex-wrap: wrap;
+    } 
+}
+
+/* Hide Template */ 
+.hide {
+    display: none;
+}
+
+.visHide {
+    visibility: hidden;
+}
+
+.cloneN {
+    visibility: visible;
+}
