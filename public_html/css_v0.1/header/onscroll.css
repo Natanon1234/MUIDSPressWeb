@@ -1,0 +1,4 @@
+.sticky {
+    background-color: rgba(15, 20, 27, 0.973);
+    transition: background-color ease 250ms;
+}

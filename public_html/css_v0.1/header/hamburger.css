@@ -1,0 +1,11 @@
+.bar1Trans {
+    transform: rotate(45deg) translateY(15px) translateX(2.5px);
+}
+
+.bar2Trans {
+    visibility: hidden;
+}
+
+.bar3Trans {
+    transform: rotate(-45deg) translateY(-15px) translateX(2.5px);
+}
