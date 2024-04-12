@@ -45,7 +45,7 @@ footer {
 /* Footer navigation*/
 footer ul {
     margin-top: 10px;
-    margin-left: 10%;
+    margin-left: auto;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@ footer a {
 }
 
 footer h6 {
-    width: 70px;
+    width: auto;
     color: rgb(255,200,69);
     margin-left: 8%;
     font-family: 'Open Sans', sans-serif;
@@ -67,7 +67,7 @@ footer h6 {
 }
 
 footer ul a {
-    width: 105px;
+    width: auto;
     text-decoration: none;
     color: whitesmoke;
     font-weight: 50;
@@ -79,21 +79,21 @@ footer ul a:hover, footer h6:hover {
 }
 
 /* Buttons */
-.footerBlock3 button {
+.footerBlock4 button {
     background-color: transparent;
     border: none;
-    margin-left: 10%;
+    margin-left: auto;
     height: 50px;
     width: 50px;
     justify-content: center;
     align-items: center;
 }
 
-.footerBlock3 button:hover {
+.footerBlock4 button:hover {
     cursor: pointer;
 }
 
-.footerBlock3 button img {
+.footerBlock4 button img {
     height: 60%
 }
 
@@ -132,11 +132,23 @@ footer ul a:hover, footer h6:hover {
     width: 40%;
 }
 
+/*List items adjust, other alignments*/
+.footerHome, .footerNews, .footerContact, .footerAbout{
+	text-align: left;
+}
+
+.home_item,.news_item,.contact_item, .about_item{
+  text-align: left;
+	padding-left:40px;
+}
+
 /* Media query */
 @media only screen and (min-width: 1500px) {
-    .footerBlock1, .footerBlock2, .footerBlock3 {
-        width: calc(100% / 3);
+    .footerBlock1, .footerBlock2, .footerBlock3, .footerBlock4 {
+        width: calc(100% / 4);
         background-color: transparent;
+		display: flex;
+  		justify-content: center;
     }
 
     .footerBlock2 {
@@ -152,8 +164,8 @@ footer ul a:hover, footer h6:hover {
 }
 
 @media only screen and (min-width: 810px) and (max-width: 1499px) {
-    .footerBlock1, .footerBlock2, .footerBlock3 {
-        width: calc(100% / 3);
+    .footerBlock1, .footerBlock2, .footerBlock3, .footerBlock4 {
+        width: calc(100% / 4);
         background-color: transparent;
     }
 
@@ -168,7 +180,7 @@ footer ul a:hover, footer h6:hover {
         flex-direction: column;
     }
 
-    .footerBlock1, .footerBlock2, .footerBlock3 {
+    .footerBlock1, .footerBlock2, .footerBlock3, .footerBlock4 {
         padding-top: 25px;
         padding-bottom: 25px;
     }
