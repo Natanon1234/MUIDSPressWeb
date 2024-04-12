@@ -147,8 +147,6 @@ footer ul a:hover, footer h6:hover {
     .footerBlock1, .footerBlock2, .footerBlock3, .footerBlock4 {
         width: calc(100% / 4);
         background-color: transparent;
-		display: flex;
-  		justify-content: center;
     }
 
     .footerBlock2 {
