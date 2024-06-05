@@ -1,0 +1,16 @@
+{
+  "date": "04/2024",
+  "news": [
+{
+      "title": "MUIDS Broadcast Club Proposal",
+      "author": "MUIDS Press",
+      "tag": ["Broadcast", "Club", "MUIDS Broadcast", "Internal"],
+      "date": "14 May 2024",
+      "p": [
+        "MUIDS Broadcast Club presents the official club proposal for external use, and for interested readers to devour. Learn more about MUIDS Broadcast, the club and how we operate inside of this document. Applications are open for those interested! Contact MUIDS Press to start the process of joining in on our fun!", "Click below for the proposal document to read our proposal.", "<button onclick='location.href=`https://docs.google.com/document/d/1-zvYU3faiKAh_xVaIzZ9BvrhuoRKwLiuJzbDvXl3ndY/edit`;' style='width:100%;text-style:center;margin:auto;padding: 10px;font-family:inherit;background-color:rgb(255,200,69);border-radius:5px;border:none;cursor:pointer'>MUIDS Broadcast Club Proposal</button>", "<button onclick='location.href=`https://muids.press/pdf_v0/MUIDSBroadcastapproval.pdf`;' style='width:100%;text-style:center;margin:auto;padding: 10px;font-family:inherit;background-color:rgb(255,200,69);border-radius:5px;border:none;cursor:pointer'>MUIDS Broadcast Club Approval</button>"
+      ],
+      "img": "broadcastClubLogo.png",
+      "ref": ""
+    }
+  ]
+}
