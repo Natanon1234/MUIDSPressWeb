@@ -8,9 +8,11 @@ async function displayFeaturedNews() {
     const template = document.querySelector("#templateNewsBox");
     const holder = document.querySelector("#newsBox");
     const tag = document.querySelector("#tag");
-
+	// Variable Constants
+	const nDisplayed = 6; // Indidcates how many articles are fetched in total
+	
     // Fetch the data
-    const fetchedData = await fetchFeatured(6);
+    const fetchedData = await fetchFeatured(nDisplayed);
 
     // Name the imported data
     const selected = fetchedData.featured;
@@ -19,7 +21,7 @@ async function displayFeaturedNews() {
     const month = fetchedData.month;
     const news = fetchedData.news;
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < nDisplayed; i++) {
 
       let clone = template.cloneNode(true);
       holder.appendChild(clone);
@@ -70,7 +72,7 @@ async function displayFeaturedNews() {
     const template = document.querySelector("#templateNewsBox");
     const holder = document.querySelector("#newsBox");
     const tag = document.querySelector("#tag");
-	const shownArticles = 4;  // Change here to change for max number of fetched articles inside of the Featured area
+	const shownArticles = 6;  // Change here to change for max number of fetched articles inside of the Featured area
 
     // Fetch the data
     const fetchedData = await fetchFeatured(shownArticles);
