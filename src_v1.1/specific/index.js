@@ -26,7 +26,7 @@ async function displayFeaturedNews() {
       let clone = template.cloneNode(true);
       holder.appendChild(clone);
 
-      if (selected[i]) {
+      //if (selected[i]) {
         let data = selected[i];
         // Declaring the changed values
         let header = clone.querySelector("a");
@@ -55,7 +55,7 @@ async function displayFeaturedNews() {
         // Updating the href
         let newHref = `headline.html?id=${year}/${month}/${news.indexOf(data)}`;
         header.href = newHref;
-      }
+      //}
     }
     template.remove();
 }
