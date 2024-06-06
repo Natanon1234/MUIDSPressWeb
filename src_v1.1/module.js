@@ -78,7 +78,7 @@ const fetchFeatured = async (top) => {
             }
           }
         }
-      };
+      }
 
       // Calling the function
       roll(news);
