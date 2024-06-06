@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 import { fetchFeatured } from "../module.js";
 
 // News Folder
@@ -8,8 +7,9 @@ async function displayFeaturedNews() {
     const template = document.querySelector("#templateNewsBox");
     const holder = document.querySelector("#newsBox");
     const tag = document.querySelector("#tag");
+	
 	// Variable Constants
-	const nDisplayed = 6; // Indidcates how many articles are fetched in total
+	const nDisplayed = 4; // Indidcates how many articles are fetched and displayed in total
 	
     // Fetch the data
     const fetchedData = await fetchFeatured(nDisplayed);
@@ -57,7 +57,6 @@ async function displayFeaturedNews() {
         header.href = newHref;
       }
     }
-
     template.remove();
 }
 
