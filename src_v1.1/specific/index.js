@@ -9,7 +9,7 @@ async function displayFeaturedNews() {
     const tag = document.querySelector("#tag");
 	
 	// Variable Constants
-	const nDisplayed = 4; // Indidcates how many articles are fetched and displayed in total
+	const nDisplayed = 6; // Indidcates how many articles are fetched and displayed in total
 	
     // Fetch the data
     const fetchedData = await fetchFeatured(nDisplayed);
