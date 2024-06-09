@@ -61,7 +61,7 @@ const update = async () => {
 
 // Updating featured
 const displayFeaturedNews = async () => {
-  const fetchedData = await fetchFeatured(10);
+  const fetchedData = await fetchFeatured(6);
 
   const template = document.querySelector('#featuredTemplate');
   const holder = document.querySelector('#newsHolder');
@@ -72,7 +72,7 @@ const displayFeaturedNews = async () => {
   const month = fetchedData.month;
   const news = fetchedData.news;
 
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 6; i++) {
     let clone = template.cloneNode(true);
     holder.appendChild(clone);
 

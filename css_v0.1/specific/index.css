@@ -7,7 +7,7 @@
 
 #featured .title {
   position: absolute;
-  top: -30px;
+  top: -70px;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -36,9 +36,9 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 95%;
+  width: 75%;
   padding-bottom: 20px;
-  margin-top: 60px;
+  margin-top: 95px;
   gap: 20px;
   margin-bottom: 40px;
 }
@@ -50,7 +50,7 @@
   border: none;
   border-radius: 5px;
   height: 500px;
-  width: 90%;
+  width: 50%;
   overflow: hidden;
   background-color: whitesmoke;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.156);
@@ -64,7 +64,7 @@
   padding-bottom: 0px;
   font-size: 30px;
   font-family: "Merriweather", serif;
-  width: 90%;
+  width: 100%;
   transition: color ease 250ms;
 }
 
@@ -125,7 +125,7 @@
 #broadcast h1 {
   font-size: 80px;
   padding-bottom: 20px;
-  width: 85%;
+  width: 100%;
   max-width: 1525px;
   margin: auto;
   color: whitesmoke;
