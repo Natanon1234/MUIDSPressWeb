@@ -50,12 +50,12 @@ async function displayFeaturedNews() {
           let tagClone = tag.cloneNode(true);
           localTagHolder.appendChild(tagClone);
           tagClone.innerHTML = data.tag[j];
-        }
+        //}
 
         // Updating the href
         let newHref = `headline.html?id=${year}/${month}/${news.indexOf(data)}`;
         header.href = newHref;
-      //}
+      }
     }
     template.remove();
 }

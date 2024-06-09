@@ -2,7 +2,7 @@
 #featured {
   position: relative;
   max-width: 2500px;
-  width: 90%;
+  width: 100%;
 }
 
 #featured .title {
@@ -64,7 +64,7 @@
   padding-bottom: 0px;
   font-size: 30px;
   font-family: "Merriweather", serif;
-  width: 90%;
+  width: 100%;
   transition: color ease 250ms;
 }
 
@@ -125,7 +125,7 @@
 #broadcast h1 {
   font-size: 80px;
   padding-bottom: 20px;
-  width: 85%;
+  width: 100%;
   max-width: 1525px;
   margin: auto;
   color: whitesmoke;
